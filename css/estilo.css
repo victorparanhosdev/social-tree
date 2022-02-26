@@ -93,7 +93,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+   
     margin: 4rem auto 2rem auto;
     max-width: 90%;
 
@@ -103,6 +103,8 @@ footer {
 footer a {
     display: flex;
     align-items: center;
+    margin: 0 1rem;
+   
 }
 
 footer a:hover {
@@ -116,11 +118,6 @@ footer a img {
 }
 
 
-@media (max-width: 375px){
-    html{
-        font-size: 62.5%;
-    }
-}
 
 @media (max-width: 768px){
    
