@@ -1,8 +1,8 @@
 # Desafio: Social Tree
 
 <p align="center">
- <img height="400px" src="interface/Desktop.png" alt="Versao Desktop">
- <img height="400px" src="interface/mobile.png" alt="Versao Mobile">
+ <img height="300px" src="interface/mobile.png" alt="Versao Mobile">
+ <img height="300px" src="interface/Desktop.png" alt="Versao Desktop">
  </p>
 
 # 🚀 **Techs**
