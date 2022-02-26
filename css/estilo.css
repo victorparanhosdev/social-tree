@@ -20,6 +20,7 @@ body {
 div {
     margin: 0 auto;
     max-width: 50rem;
+
     
 }
 
@@ -103,27 +104,3 @@ footer a img {
     height: 1.8rem;    
 }
 
-@media (min-width: 768px){
-    html {
-        font-size: 72%;
-    }
-}
-
-@media (min-width: 1024px){
-    html {
-        font-size: 90%;
-    }
-}  
-
-
-@media (min-width: 1440px){
-    html {
-        font-size: 100%;
-    }
-}   
-
-@media (min-width: 2560px){
-    html {
-        font-size: 200%;
-    }
-}   
