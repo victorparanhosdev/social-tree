@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+html{
+    font-size: 62.5%;   
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+div {
+    margin: 0 auto;
+    max-width: 50rem;
+    
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 7rem auto 0.2rem auto;
+    max-width: 200rem;  
+    
+}
+
+#perfil {
+    box-shadow: 0rem 0rem 0.4rem 0.3rem rgba(255, 255, 255, 0.356);
+    border-radius: 50%;
+    border: 0.1rem solid rgb(87, 87, 87);
+    height: 15rem;
+    width: 15rem;
+}
+
+span {
+    font-size: 1rem;
+    margin: 2rem 0 1rem 0.5rem;
+    padding: 0.2rem;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 20rem;
+    margin: 1rem auto 1rem auto;    
+}
+
+main a { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.0rem;
+    text-decoration: none;
+    color: var(--purple);
+    border: 0.1rem solid var(--purple);
+    padding: 0.6rem 7rem;
+    margin: 0.4rem;
+    border-radius: 0.4rem;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+main a:hover{
+    background-color: rgba(109, 109, 109, 0.26);
+    box-shadow: 0rem 0rem 0.5rem var(--purple);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    max-width: 20rem;
+    margin: 4rem auto 2rem auto;
+}
+
+
+footer a {
+    display: flex;
+    align-items: center;
+}
+
+footer a:hover {
+    box-shadow: 0rem 0rem 0.4rem 0.1rem var(--purple);
+    border-radius: 50%;
+   
+}
+
+footer a img {
+    height: 1.8rem;    
+}
