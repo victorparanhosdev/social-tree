@@ -26,4 +26,4 @@
 font-family: Poppins  <br>
 Font Weight: 300 e 600<br>
 Você pode encontrar a fonte no [Google Fonts](https://fonts.google.com/) <br><br>
-Feito com 💜 por Rocketseat
+Feito com 💜
